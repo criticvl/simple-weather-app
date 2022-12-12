@@ -88,7 +88,7 @@ function displayData() {
       currentUnit();
     weatherDescription.textContent = weatherData.weather[0].description;
     weatherIcon.src =
-      "http://openweathermap.org/img/wn/" +
+      "https://openweathermap.org/img/wn/" +
       weatherData.weather[0].icon +
       "@4x.png";
   } else {
