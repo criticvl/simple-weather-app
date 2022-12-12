@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Weather App</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="input-div">
+        <input id="search-input" type="text" placeholder="Search city" />
+        <button id="search-button">Search</button>
+        <button id="location-button">⌖</button>
+      </div>
+      <div class="metric-div">
+        <p>Metric: °C, m/s</p>
+        <label class="switch">
+          <input id="units" type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+        <p>Imperial: °F, mph</p>
+      </div>
+      <p id="status" class="status"></p>
+      <div class="dispaly-div">
+        <div class="display-info">
+          <h2 id="city"></h2>
+          <p id="temperature"></p>
+          <p id="feels-like"></p>
+          <p id="weather-description"></p>
+        </div>
+        <div class="display-icon">
+          <img
+            id="weather-icon"
+            src="http://openweathermap.org/img/wn/01n@4x.png"
+            alt="weather-icon.png"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
