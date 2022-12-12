@@ -9,7 +9,7 @@ const weatherDescription = document.getElementById("weather-description");
 const unitsCheckbox = document.getElementById("units");
 const weatherIcon = document.getElementById("weather-icon");
 
-const API_KEY = "b0a418437ecc894460a78d050cf22eb5";
+const API_KEY = "b0a418437ecc894460a78d050cf22eb5"; // don't touch me... please?! :)
 
 let weatherData = [];
 let units = "metric";
