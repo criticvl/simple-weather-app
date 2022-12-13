@@ -58,6 +58,10 @@ button {
   animation: iconSlide 4s ease-in-out infinite;
 }
 
+#weather-description{
+  text-transform: uppercase;
+}
+
 @keyframes iconSlide {
   0% {
     transform: translateY(0%);
